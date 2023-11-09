@@ -4,14 +4,13 @@ Library  SeleniumLibrary
 
 
 *** Variables ***
-${browser}    edge
+${browser}    chrome
 ${url}        http://demo.nopcommerce.com/
 
 *** Test Cases ***
 LoginTest
     # Open Browser    http://demo.nopcommerce.com/    chrome    executable_path=c:/bin/apu/chromedriver.exe
-    # Open Browser    http://demo.nopcommerce.com/    chrome    executable_path=chromedriver.exe
-    # Open Browser    http://demo.nopcommerce.com/    chrome
+    # Open Browser    http://demo.nopcommerce.com/    chrome    executable_path=c:/coding/RobotFramework_Pavan/chromedriver.exe
     Open Browser        ${url}    ${browser}
     Maximize Browser Window
     loginToApplication
