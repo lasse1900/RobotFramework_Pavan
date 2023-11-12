@@ -1,3 +1,6 @@
 logs/
 Logs/
 Log/
+*.html
+*.xml
+*.png
