@@ -1,0 +1,45 @@
+
+C:\Jenkins>java -jar jenkins.war
+Running from: C:\Jenkins\jenkins.war
+webroot: C:\Users\lauri\.jenkins\war
+2023-11-19 14:02:26.516+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2023-11-19 14:02:29.048+0000 [id=1]     WARNING o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2023-11-19 14:02:29.129+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-10.0.17; built: 2023-10-02T04:04:10.314Z; git: a0f5f05abaa6c3aabb7c3d35f10a6f412ab8b05f; jvm 17.0.9+11-LTS-201
+2023-11-19 14:02:29.701+0000 [id=1]     INFO    o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2023-11-19 14:02:29.764+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2023-11-19 14:02:30.443+0000 [id=1]     INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Users\lauri\.jenkins found at: $user.home/.jenkins
+2023-11-19 14:02:30.663+0000 [id=1]     INFO    o.e.j.s.handler.ContextHandler#doStart: Started w.@72e789cb{Jenkins v2.426.1,/,file:///C:/Users/lauri/.jenkins/war/,AVAILABLE}{C:\Users\lauri\.jenkins\war}
+2023-11-19 14:02:30.699+0000 [id=1]     INFO    o.e.j.server.AbstractConnector#doStart: Started ServerConnector@341814d3{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2023-11-19 14:02:30.750+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: Started Server@19c65cdc{STARTING}[10.0.17,sto=0] @4884ms
+2023-11-19 14:02:30.752+0000 [id=28]    INFO    winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2023-11-19 14:02:30.993+0000 [id=35]    INFO    jenkins.InitReactorRunner$1#onAttained: Started initialization
+2023-11-19 14:02:31.009+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2023-11-19 14:02:32.307+0000 [id=33]    INFO    jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2023-11-19 14:02:32.314+0000 [id=40]    INFO    jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2023-11-19 14:02:32.324+0000 [id=39]    INFO    jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2023-11-19 14:02:32.593+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: System config loaded
+2023-11-19 14:02:32.597+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: System config adapted
+2023-11-19 14:02:32.603+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2023-11-19 14:02:32.606+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2023-11-19 14:02:32.691+0000 [id=53]    INFO    hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2023-11-19 14:02:33.246+0000 [id=36]    INFO    jenkins.install.SetupWizard#init:
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+e5f6e0d236a242b98d7e294cdc7fb498
+
+This may also be found at: C:\Users\lauri\.jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+2023-11-19 14:02:46.353+0000 [id=36]    INFO    jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2023-11-19 14:02:46.379+0000 [id=26]    INFO    hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2023-11-19 14:02:49.427+0000 [id=53]    INFO    h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2023-11-19 14:02:49.429+0000 [id=53]    INFO    hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
